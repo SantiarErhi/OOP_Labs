@@ -4,12 +4,10 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Lab3
+namespace Lab3.Presenters
 {
-    class Cook
+    interface IPresenter
     {
-        string name;
-        string surname;
-
+        public void Run();
     }
 }

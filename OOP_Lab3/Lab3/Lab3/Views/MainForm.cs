@@ -8,13 +8,18 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace Lab3.View
+namespace Lab3
 {
-    public partial class CreateDishForm : Form
+    
+    public partial class MainForm : Form
     {
-        public CreateDishForm()
+        Presenters.MainFormPresenter presenter;
+        
+        public MainForm()
         {
             InitializeComponent();
         }
+
+        
     }
 }

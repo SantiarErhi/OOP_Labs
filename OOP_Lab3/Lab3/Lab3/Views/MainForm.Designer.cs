@@ -35,6 +35,7 @@ namespace Lab3
             this.openFileButton = new System.Windows.Forms.Button();
             this.saveFileButton = new System.Windows.Forms.Button();
             this.detailViewButton = new System.Windows.Forms.Button();
+            this.removeOrderButton = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // Orders
@@ -54,11 +55,10 @@ namespace Lab3
             this.createOrderButton.TabIndex = 1;
             this.createOrderButton.Text = "Make an order";
             this.createOrderButton.UseVisualStyleBackColor = true;
-            this.createOrderButton.Click += new System.EventHandler(this.createOrderButton_Click);
             // 
             // editOrderButton
             // 
-            this.editOrderButton.Location = new System.Drawing.Point(491, 41);
+            this.editOrderButton.Location = new System.Drawing.Point(491, 70);
             this.editOrderButton.Name = "editOrderButton";
             this.editOrderButton.Size = new System.Drawing.Size(297, 23);
             this.editOrderButton.TabIndex = 2;
@@ -67,38 +67,46 @@ namespace Lab3
             // 
             // openFileButton
             // 
-            this.openFileButton.Location = new System.Drawing.Point(491, 99);
+            this.openFileButton.Location = new System.Drawing.Point(491, 128);
             this.openFileButton.Name = "openFileButton";
             this.openFileButton.Size = new System.Drawing.Size(297, 23);
             this.openFileButton.TabIndex = 3;
             this.openFileButton.Text = "Open file";
             this.openFileButton.UseVisualStyleBackColor = true;
-            this.openFileButton.Click += new System.EventHandler(this.openFileButton_Click);
             // 
             // saveFileButton
             // 
-            this.saveFileButton.Location = new System.Drawing.Point(491, 128);
+            this.saveFileButton.Location = new System.Drawing.Point(491, 157);
             this.saveFileButton.Name = "saveFileButton";
             this.saveFileButton.Size = new System.Drawing.Size(297, 23);
             this.saveFileButton.TabIndex = 4;
             this.saveFileButton.Text = "Save file";
             this.saveFileButton.UseVisualStyleBackColor = true;
-            this.saveFileButton.Click += new System.EventHandler(this.saveFileButton_Click);
             // 
             // detailViewButton
             // 
-            this.detailViewButton.Location = new System.Drawing.Point(491, 70);
+            this.detailViewButton.Location = new System.Drawing.Point(491, 99);
             this.detailViewButton.Name = "detailViewButton";
             this.detailViewButton.Size = new System.Drawing.Size(297, 23);
             this.detailViewButton.TabIndex = 5;
             this.detailViewButton.Text = "Detail view";
             this.detailViewButton.UseVisualStyleBackColor = true;
             // 
+            // removeOrderButton
+            // 
+            this.removeOrderButton.Location = new System.Drawing.Point(491, 41);
+            this.removeOrderButton.Name = "removeOrderButton";
+            this.removeOrderButton.Size = new System.Drawing.Size(297, 23);
+            this.removeOrderButton.TabIndex = 6;
+            this.removeOrderButton.Text = "Remove order";
+            this.removeOrderButton.UseVisualStyleBackColor = true;
+            // 
             // MainForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.removeOrderButton);
             this.Controls.Add(this.detailViewButton);
             this.Controls.Add(this.saveFileButton);
             this.Controls.Add(this.openFileButton);
@@ -113,12 +121,13 @@ namespace Lab3
 
         #endregion
 
-        private System.Windows.Forms.ListBox Orders;
-        private System.Windows.Forms.Button createOrderButton;
-        private System.Windows.Forms.Button editOrderButton;
-        private System.Windows.Forms.Button openFileButton;
-        private System.Windows.Forms.Button saveFileButton;
-        private System.Windows.Forms.Button detailViewButton;
+        internal System.Windows.Forms.ListBox Orders;
+        internal System.Windows.Forms.Button createOrderButton;
+        internal System.Windows.Forms.Button editOrderButton;
+        internal System.Windows.Forms.Button openFileButton;
+        internal System.Windows.Forms.Button saveFileButton;
+        internal System.Windows.Forms.Button detailViewButton;
+        internal System.Windows.Forms.Button removeOrderButton;
     }
 }
 

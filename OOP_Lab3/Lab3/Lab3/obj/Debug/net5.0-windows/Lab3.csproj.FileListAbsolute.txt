@@ -17,3 +17,6 @@ C:\Users\tmp\source\repos\OOP_Labs\OOP_Lab3\Lab3\Lab3\obj\Debug\net5.0-windows\L
 C:\Users\tmp\source\repos\OOP_Labs\OOP_Lab3\Lab3\Lab3\obj\Debug\net5.0-windows\Lab3.genruntimeconfig.cache
 C:\Users\tmp\source\repos\OOP_Labs\OOP_Lab3\Lab3\Lab3\obj\Debug\net5.0-windows\Lab3.MainForm.resources
 C:\Users\tmp\source\repos\OOP_Labs\OOP_Lab3\Lab3\Lab3\obj\Debug\net5.0-windows\Lab3.View.MakeOrderForm.resources
+C:\Users\tmp\source\repos\OOP_Labs\OOP_Lab3\Lab3\Lab3\obj\Debug\net5.0-windows\Lab3.View.CreateDishForm.resources
+C:\Users\tmp\source\repos\OOP_Labs\OOP_Lab3\Lab3\Lab3\obj\Debug\net5.0-windows\Lab3.Views.DetailOrderView.resources
+C:\Users\tmp\source\repos\OOP_Labs\OOP_Lab3\Lab3\Lab3\obj\Debug\net5.0-windows\Lab3.Views.EditOrderForm.resources

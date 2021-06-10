@@ -8,18 +8,13 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace Lab3.View
+namespace Lab3.Views
 {
-    public partial class MakeOrderForm : Form
+    public partial class DetailOrderView : Form
     {
-        public MakeOrderForm()
+        public DetailOrderView()
         {
             InitializeComponent();
-        }
-
-        private void textBox1_TextChanged(object sender, EventArgs e)
-        {
-
         }
     }
 }
